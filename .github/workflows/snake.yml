@@ -1,16 +1,22 @@
 name: Generate Snake Animation
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # runs every 24 hours
-  workflow_dispatch:
+  schedule:  # Runs every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write  # allow push to output branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # full repo history required
 
       - name: Generate Snake
         uses: Platane/snk@v3
