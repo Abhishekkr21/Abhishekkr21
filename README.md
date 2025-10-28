@@ -60,7 +60,7 @@
   <a href="mailto:akpk18235@@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-red?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://twitter.com/abhishe2179" target="_blank">
+  <a href="https://twitter.com/abhishe21793602" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-black?style=flat&logo=x" alt="Twitter" />
   </a>
 </p>
